@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "product": "Pure Tokens",
+  "version": "0.7.0",
+  "channel": "stable",
+  "notes": "Include Wan reference and output duration in quotes, and label reservation limits for unmeasured references or adaptive duration. Preserve reservation semantics in Kling, batches and assistant approval. Model details explain reference minimums, rounding and included images. Matching services can recover late image results under the original task without resubmission. Upgrade to 0.7.0 to use these changes; availability depends on matching Web services, account access and model support.",
+  "pub_date": "2026-11-07T06:43:48.082Z",
+  "min_supported_version": "0.7.0",
+  "mandatory": false,
+  "distribution": {
+    "mode": "community",
+    "platform_trust": "unsigned-unnotarized",
+    "updater_trust": "tauri-detached-signature"
+  },
+  "notes_urls": {
+    "en-US": "https://raw.githubusercontent.com/puretokensx/puretokens-desktop-releases/main/notes/0.7.0.en-US.md",
+    "zh-CN": "https://raw.githubusercontent.com/puretokensx/puretokens-desktop-releases/main/notes/0.7.0.zh-CN.md"
+  },
+  "downloads": {
+    "macosApple": {
+      "url": "https://github.com/puretokensx/puretokens-desktop-releases/releases/download/v0.7.0/Pure.Tokens_0.7.0_aarch64.dmg",
+      "sha256": "242a58f5ddc48e2f71e308f4d8fe8e064bd698a5701e4b98b5b8622515669621",
+      "size": 48900952
+    },
+    "macosIntel": {
+      "url": "https://github.com/puretokensx/puretokens-desktop-releases/releases/download/v0.7.0/Pure.Tokens_0.7.0_x64.dmg",
+      "sha256": "ae708dd8c47fc68fd416537437ed8611864555f7e9a536d4b1502a7db566d921",
+      "size": 51379787
+    },
+    "windows": {
+      "url": "https://github.com/puretokensx/puretokens-desktop-releases/releases/download/v0.7.0/Pure.Tokens_0.7.0_x64-setup.exe",
+      "sha256": "b8374bfc0eacd8108c32445a2b25d5e918bc15a3f0169d01313be3d610039151",
+      "size": 44437499
+    }
+  },
+  "platforms": {
+    "darwin-aarch64": {
+      "url": "https://github.com/puretokensx/puretokens-desktop-releases/releases/download/v0.7.0/Pure.Tokens_aarch64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTk82MkhLV0VxdHNTOFhLcDlTVDFGelpvSGhsODd0WU5IZ0VCRjNmOGtuMVJTcTZJemJqd1JPcEQxNU9WeU5pUnk1YjRtNmdKREg3d3lEdFgreE5PT0pNNStJbEJvOWdFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDMyODY3CWZpbGU6UHVyZSBUb2tlbnMuYXBwLnRhci5negpWbzZCZzJJUUY0YWdJaUhmaVIxQTFkSWt6WFBiQ3BvMHpXOERHTllmZ1pZckxmOFBJM3BMSlpKQ0RjcmpDN3lEdkdVSEVwRy8vRDUrSXVYZU8yS01Edz09Cg==",
+      "sha256": "7ba9276c7ae52067807825019cf564cea7dbea54af0268350280933a404a7256",
+      "size": 49101492
+    },
+    "darwin-x86_64": {
+      "url": "https://github.com/puretokensx/puretokens-desktop-releases/releases/download/v0.7.0/Pure.Tokens_x64.app.tar.gz",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTk82MkhLV0VxdHFzZ2I4MFF2WTNnRXFSWU5ocCtnSmtFd0lKb09COWRHNWJiN1BIVzlFYVVxeitIT0x6dVRVenhuanBEK2xMMkNuSHFiRG5ySURpbDBmNWUrcjZqd0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDMzODA1CWZpbGU6UHVyZSBUb2tlbnMuYXBwLnRhci5negp1VC9DK0xPYXZicUxhZUhwU2hhSFhmUysveVp0NTNPa3E2SktCdzFZc1dpaXdtbi9YTlRlY3FLUi9Db1Z6REdxeEJVcFA5ckNiZ21ZVVRkVmRCQUVCdz09Cg==",
+      "sha256": "482ce828ce3d19e464991896d354b80e6ad9656da66d5e616cdf0e03db1b39d7",
+      "size": 51315857
+    },
+    "windows-x86_64": {
+      "url": "https://github.com/puretokensx/puretokens-desktop-releases/releases/download/v0.7.0/Pure.Tokens_0.7.0_x64-setup.exe",
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVTTk82MkhLV0VxdGcwckJyNHZQYWZ4bzM1Y09JU2NvTmo4M3g1SU55aUdpRCt3L1FZekwzTlhsdmpaaGhTWjdON3pQazV5UEV1dGZySHI0Uk4rb1Y2eXpsRzRaTE9sRXdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0MDMxODAxCWZpbGU6UHVyZSBUb2tlbnNfMC43LjBfeDY0LXNldHVwLmV4ZQpLZ29OeHVzQmZvWC8wVTRpekRHQ09qN1hERE9vbFA3THMwcDBvL2ErMjlpWjhzQTlmbHludGhGRDMvV1RBU0RncG9DZitlb1RhRjRySVB2VEJ2MHFDQT09Cg==",
+      "sha256": "b8374bfc0eacd8108c32445a2b25d5e918bc15a3f0169d01313be3d610039151",
+      "size": 44437499
+    }
+  }
+}
